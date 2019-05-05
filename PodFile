@@ -7,4 +7,5 @@ target 'KizCafePass' do
 
   # Pods for KizCafePass
   pod 'Alamofire'
+  pod 'Kingfisher'
 end

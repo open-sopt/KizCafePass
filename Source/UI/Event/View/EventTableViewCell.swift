@@ -7,9 +7,14 @@
 //
 
 import UIKit
+import Kingfisher
 
 class EventTableViewCell: UITableViewCell {
-
+    
+    @IBOutlet private weak var backgroundImageView: UIImageView!
+    @IBOutlet private weak var eventTitle: UILabel!
+    @IBOutlet private weak var dday: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -19,6 +24,16 @@ class EventTableViewCell: UITableViewCell {
         super.setSelected(selected, animated: animated)
 
         // Configure the view for the selected state
+    }
+    
+    public func setEventData(_ event: Event) {
+        let url = URL(string: event.imageURL)
+        self.backgroundImageView.kf.setImage(with: url,
+                                             placeholder: UIImage(named: "eventBanner1"))
+       // self.backgroundImageView.image = UIImage(named: "eventBanner1")
+        
+        self.eventTitle.text = event.eventTitle
+        self.dday.text = "D-\(event.dday)"
     }
     
 }
