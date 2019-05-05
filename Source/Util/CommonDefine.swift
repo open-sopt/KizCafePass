@@ -9,8 +9,9 @@
 public enum CommonDefine {
     
     public enum API {
-        static let baseDomain = ""
-        static let loginRequestURL = ""
+        static let baseDomain = "http://15.164.31.189:3000"
+        static let eventProgress = "/event/progress"
+        static let eventCompleted = "/event/completed"
     }
     
 }

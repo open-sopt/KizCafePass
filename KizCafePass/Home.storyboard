@@ -15,11 +15,11 @@
             <objects>
                 <viewController id="j1k-BD-Abc" customClass="HomeViewController" customModule="KizCafePass" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wQs-Ao-3e9">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="2000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NDh-jl-ola">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="917"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="1917"/>
                                 <subviews>
                                     <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Msw-Eb-YGY">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="298"/>
@@ -30,8 +30,8 @@
                                             <segue destination="TIC-Cj-2Lm" kind="embed" id="q9h-ah-tbA"/>
                                         </connections>
                                     </containerView>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="to4-kN-bvi">
-                                        <rect key="frame" x="0.0" y="298" width="414" height="770"/>
+                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="to4-kN-bvi">
+                                        <rect key="frame" x="0.0" y="298" width="414" height="1300"/>
                                         <subviews>
                                             <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FfN-IJ-UKl">
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="79"/>
@@ -102,29 +102,34 @@
                                             <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ReM-da-g0z">
                                                 <rect key="frame" x="0.0" y="377" width="414" height="284"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="인기" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kBm-Ip-0O5">
-                                                        <rect key="frame" x="16" y="16" width="29.5" height="20.5"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="현재 핫한 인기 플레이스" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kBm-Ip-0O5">
+                                                        <rect key="frame" x="16" y="16" width="161" height="21"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="PopularCollectionView" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="FDa-vj-Tlm">
-                                                        <rect key="frame" x="0.0" y="20.5" width="398" height="179.5"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" restorationIdentifier="PopularCollectionView" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="FDa-vj-Tlm">
+                                                        <rect key="frame" x="0.0" y="46" width="414" height="238"/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="f7O-5u-Duy">
-                                                            <size key="itemSize" width="120" height="140"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="238" id="vkR-Rs-bkq"/>
+                                                        </constraints>
+                                                        <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="f7O-5u-Duy">
+                                                            <size key="itemSize" width="225" height="238"/>
                                                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                                             <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                                                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                            <inset key="sectionInset" minX="16" minY="0.0" maxX="0.0" maxY="0.0"/>
                                                         </collectionViewFlowLayout>
                                                         <cells/>
                                                     </collectionView>
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
+                                                    <constraint firstItem="FDa-vj-Tlm" firstAttribute="leading" secondItem="ReM-da-g0z" secondAttribute="leading" id="25K-ok-dvc"/>
+                                                    <constraint firstAttribute="bottom" secondItem="FDa-vj-Tlm" secondAttribute="bottom" id="GPW-6D-4El"/>
+                                                    <constraint firstAttribute="trailing" secondItem="FDa-vj-Tlm" secondAttribute="trailing" id="Gc1-Y8-k7u"/>
                                                     <constraint firstItem="kBm-Ip-0O5" firstAttribute="leading" secondItem="ReM-da-g0z" secondAttribute="leading" constant="16" id="Hew-LJ-m2J"/>
-                                                    <constraint firstItem="kBm-Ip-0O5" firstAttribute="top" secondItem="ReM-da-g0z" secondAttribute="top" constant="16" id="R2K-mt-6tx"/>
+                                                    <constraint firstItem="kBm-Ip-0O5" firstAttribute="top" secondItem="ReM-da-g0z" secondAttribute="top" constant="16" id="Mcc-oR-h4H"/>
                                                     <constraint firstAttribute="height" constant="284" id="VeE-Gy-O04"/>
                                                 </constraints>
                                             </view>
@@ -168,7 +173,7 @@
                     <tabBarItem key="tabBarItem" title="홈" image="tab1Active" selectedImage="tab1Active" id="ET7-Zc-a06"/>
                     <navigationItem key="navigationItem" id="0lq-FM-aE0"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
-                    <size key="freeformSize" width="414" height="1000"/>
+                    <size key="freeformSize" width="414" height="2000"/>
                     <connections>
                         <outlet property="popularCollectionView" destination="FDa-vj-Tlm" id="0H9-41-XBh"/>
                         <outlet property="recommendCollectionView" destination="f1X-sO-P4C" id="WEa-hJ-oAn"/>

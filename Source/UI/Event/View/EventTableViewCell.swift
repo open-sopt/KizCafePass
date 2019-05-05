@@ -26,14 +26,14 @@ class EventTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
-    public func setEventData(_ event: Event) {
-        let url = URL(string: event.imageURL)
+    public func setEventData(_ event: EventModel) {
+        let url = URL(string: event.thumbnail)
         self.backgroundImageView.kf.setImage(with: url,
                                              placeholder: UIImage(named: "eventBanner1"))
        // self.backgroundImageView.image = UIImage(named: "eventBanner1")
         
-        self.eventTitle.text = event.eventTitle
-        self.dday.text = "D-\(event.dday)"
+        self.eventTitle.text = event.title
+        self.dday.text = "D-\(event.endDate)"
     }
     
 }

@@ -18,7 +18,7 @@ class EventViewController: UIViewController {
     @IBOutlet weak var completedButton: UIButton!
     
     
-    var eventList: [Event] = []
+    var eventList: [EventModel] = []
     
     enum IndicatorSelector {
         case progress
@@ -27,8 +27,6 @@ class EventViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        self.setEventData()
         
         let nibName = UINib(nibName: "EventTableViewCell", bundle: nil)
         self.tableView.register(nibName, forCellReuseIdentifier: "testXib")
@@ -40,6 +38,11 @@ class EventViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         self.selectIndicator(.progress)
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        self.requestProgress()
     }
     
     @IBAction private func progressButtonTapped(_ sender: UIButton) {
@@ -65,6 +68,22 @@ class EventViewController: UIViewController {
             self.leftIndicator.isHidden = true
             self.rightIndicator.isHidden = false
         }
+    }
+    
+    
+    private func requestProgress() {
+        let success: (EventModels) -> Void = { eventModels in
+            self.eventList = eventModels
+            self.tableView.reloadData()
+        }
+        
+        let failure: (Error?) -> Void = { error in
+            
+        }
+        
+        
+        EventService.requestEvent(success: success,
+                                  failure: failure)
     }
 }
 
@@ -95,22 +114,5 @@ extension EventViewController: UITableViewDataSource {
         
         cell.setEventData(event)
         return cell
-    }
-}
-
-//let dday = 2-
-// "D-\(dday)"
-
-// TODO: - 일하세요!!
-
-extension EventViewController {
-    func setEventData() {
-        let event1 = Event(title: "어린이날 기념으로 킷캣이 쏜다", dday: 20)
-        let event2 = Event(title: "타이틀2", dday: 15)
-        let event3 = Event(title: "타이틀3", dday: 10)
-        
-        eventList = [event1, event2, event3]
-        
-        
     }
 }
