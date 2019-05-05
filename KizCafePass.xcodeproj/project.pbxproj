@@ -18,6 +18,7 @@
 		2FB0AA30227EEA1A00D365BB /* MainTopPageContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FB0AA2E227EEA1A00D365BB /* MainTopPageContentViewController.xib */; };
 		2FB0AA34227F021C00D365BB /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB0AA32227F021C00D365BB /* HomeCollectionViewCell.swift */; };
 		2FB0AA35227F021C00D365BB /* HomeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FB0AA33227F021C00D365BB /* HomeCollectionViewCell.xib */; };
+		2FB0AA39227F094700D365BB /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB0AA38227F094700D365BB /* SearchViewController.swift */; };
 		2FF1F64E227EBD0500C1F0A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF1F64D227EBD0500C1F0A0 /* AppDelegate.swift */; };
 		2FF1F650227EBD0500C1F0A0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF1F64F227EBD0500C1F0A0 /* HomeViewController.swift */; };
 		2FF1F653227EBD0500C1F0A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FF1F651227EBD0500C1F0A0 /* Main.storyboard */; };
@@ -44,6 +45,7 @@
 		2FB0AA2E227EEA1A00D365BB /* MainTopPageContentViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainTopPageContentViewController.xib; sourceTree = "<group>"; };
 		2FB0AA32227F021C00D365BB /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
 		2FB0AA33227F021C00D365BB /* HomeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeCollectionViewCell.xib; sourceTree = "<group>"; };
+		2FB0AA38227F094700D365BB /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		2FF1F64A227EBD0500C1F0A0 /* KizCafePass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KizCafePass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FF1F64D227EBD0500C1F0A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2FF1F64F227EBD0500C1F0A0 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +108,22 @@
 				2FB0AA33227F021C00D365BB /* HomeCollectionViewCell.xib */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		2FB0AA36227F092500D365BB /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				2FB0AA37227F093500D365BB /* ViewController */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		2FB0AA37227F093500D365BB /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2FB0AA38227F094700D365BB /* SearchViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 		2FF1F641227EBD0500C1F0A0 = {
@@ -206,6 +224,7 @@
 		2FF1F668227EBDAE00C1F0A0 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				2FB0AA36227F092500D365BB /* Search */,
 				2FB0AA21227EDDEF00D365BB /* Profile */,
 				68D23505227ED2E80031B50C /* Event */,
 				2FF1F669227EBDB600C1F0A0 /* Home */,
@@ -433,6 +452,7 @@
 				68D2350D227ED3830031B50C /* EventViewController.swift in Sources */,
 				2FB0AA2F227EEA1A00D365BB /* MainTopPageContentViewController.swift in Sources */,
 				2FF1F670227EBF5800C1F0A0 /* CommonDefine.swift in Sources */,
+				2FB0AA39227F094700D365BB /* SearchViewController.swift in Sources */,
 				2FB0AA34227F021C00D365BB /* HomeCollectionViewCell.swift in Sources */,
 				2FF1F672227EBF8200C1F0A0 /* KCPUserDefaults.swift in Sources */,
 				2FB0AA26227EDE2100D365BB /* ProfileViewController.swift in Sources */,
