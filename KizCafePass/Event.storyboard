@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Event-->
+        <!--이벤트-->
         <scene sceneID="w1u-wv-znc">
             <objects>
                 <viewController storyboardIdentifier="EventViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="0FR-gI-gm1" customClass="EventViewController" customModule="KizCafePass" customModuleProvider="target" sceneMemberID="viewController">
@@ -96,7 +96,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="qzT-Lw-DDY"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Event" id="Lxc-Ft-9GF"/>
+                    <tabBarItem key="tabBarItem" title="이벤트" image="tab3Inactive" selectedImage="tab3Active" id="Lxc-Ft-9GF"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="completedButton" destination="ZSy-fL-bvp" id="Lho-c1-mMG"/>
@@ -111,4 +111,8 @@
             <point key="canvasLocation" x="137.68115942028987" y="111.83035714285714"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="tab3Active" width="28" height="28"/>
+        <image name="tab3Inactive" width="28" height="28"/>
+    </resources>
 </document>

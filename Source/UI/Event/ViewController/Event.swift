@@ -11,7 +11,7 @@
 
 struct Event {
     //var eventImg: UIImage?
-    //var imageURL: String
+    var imageURL: String = "https://t2.daumcdn.net/thumb/R720x0/?fname=http://t1.daumcdn.net/brunch/service/user/1isF/image/5_Xox4UCfjUoW-gap_2wkegwWWY.jpg"
     var eventTitle: String
     var dday: Int
     

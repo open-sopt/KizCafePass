@@ -93,9 +93,7 @@ extension EventViewController: UITableViewDataSource {
         
         let event = eventList[indexPath.row]
         
-        cell.eventTitle.text = event.eventTitle
-        cell.dday.text = "\(event.dday)"
-        
+        cell.setEventData(event)
         return cell
     }
 }
