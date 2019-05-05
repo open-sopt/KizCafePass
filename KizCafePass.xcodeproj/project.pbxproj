@@ -11,6 +11,7 @@
 		2F053D64227EC90D0091E4E3 /* Search.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F053D63227EC90D0091E4E3 /* Search.storyboard */; };
 		2F053D66227EC9190091E4E3 /* Event.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F053D65227EC9190091E4E3 /* Event.storyboard */; };
 		2F053D68227EC9210091E4E3 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F053D67227EC9210091E4E3 /* Profile.storyboard */; };
+		2FB0AA26227EDE2100D365BB /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB0AA24227EDE2100D365BB /* ProfileViewController.swift */; };
 		2FF1F64E227EBD0500C1F0A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF1F64D227EBD0500C1F0A0 /* AppDelegate.swift */; };
 		2FF1F650227EBD0500C1F0A0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF1F64F227EBD0500C1F0A0 /* HomeViewController.swift */; };
 		2FF1F653227EBD0500C1F0A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FF1F651227EBD0500C1F0A0 /* Main.storyboard */; };
@@ -22,7 +23,6 @@
 		68D2350A227ED31A0031B50C /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D23508227ED31A0031B50C /* EventTableViewCell.swift */; };
 		68D2350B227ED31A0031B50C /* EventTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68D23509227ED31A0031B50C /* EventTableViewCell.xib */; };
 		68D2350D227ED3830031B50C /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D2350C227ED3830031B50C /* EventViewController.swift */; };
-		68D2350F227EDA7E0031B50C /* Profile in Resources */ = {isa = PBXBuildFile; fileRef = 68D2350E227EDA7E0031B50C /* Profile */; };
 		DFBDA2402D724FFC472E738B /* Pods_KizCafePass.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4D4CF75716498BA865618CE /* Pods_KizCafePass.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +31,7 @@
 		2F053D63227EC90D0091E4E3 /* Search.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Search.storyboard; sourceTree = "<group>"; };
 		2F053D65227EC9190091E4E3 /* Event.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Event.storyboard; sourceTree = "<group>"; };
 		2F053D67227EC9210091E4E3 /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		2FB0AA24227EDE2100D365BB /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileViewController.swift; path = "Source/UI/Profile-/ProfileViewController/ProfileViewController.swift"; sourceTree = SOURCE_ROOT; };
 		2FF1F64A227EBD0500C1F0A0 /* KizCafePass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KizCafePass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FF1F64D227EBD0500C1F0A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2FF1F64F227EBD0500C1F0A0 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -45,7 +46,6 @@
 		68D23508227ED31A0031B50C /* EventTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
 		68D23509227ED31A0031B50C /* EventTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EventTableViewCell.xib; sourceTree = "<group>"; };
 		68D2350C227ED3830031B50C /* EventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
-		68D2350E227EDA7E0031B50C /* Profile */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Profile; sourceTree = "<group>"; };
 		9790A413C1F22C7E1C8BD357 /* Pods-KizCafePass.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KizCafePass.release.xcconfig"; path = "Pods/Target Support Files/Pods-KizCafePass/Pods-KizCafePass.release.xcconfig"; sourceTree = "<group>"; };
 		B4D4CF75716498BA865618CE /* Pods_KizCafePass.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KizCafePass.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -69,6 +69,22 @@
 				9790A413C1F22C7E1C8BD357 /* Pods-KizCafePass.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		2FB0AA21227EDDEF00D365BB /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				2FB0AA22227EDE1300D365BB /* ViewController */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		2FB0AA22227EDE1300D365BB /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2FB0AA24227EDE2100D365BB /* ProfileViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 		2FF1F641227EBD0500C1F0A0 = {
@@ -169,7 +185,7 @@
 		2FF1F668227EBDAE00C1F0A0 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				68D2350E227EDA7E0031B50C /* Profile */,
+				2FB0AA21227EDDEF00D365BB /* Profile */,
 				68D23505227ED2E80031B50C /* Event */,
 				2FF1F669227EBDB600C1F0A0 /* Home */,
 			);
@@ -320,7 +336,6 @@
 				2FF1F658227EBD0600C1F0A0 /* LaunchScreen.storyboard in Resources */,
 				2FF1F655227EBD0600C1F0A0 /* Assets.xcassets in Resources */,
 				2FF1F653227EBD0500C1F0A0 /* Main.storyboard in Resources */,
-				68D2350F227EDA7E0031B50C /* Profile in Resources */,
 				2F053D62227EC9010091E4E3 /* Home.storyboard in Resources */,
 				68D2350B227ED31A0031B50C /* EventTableViewCell.xib in Resources */,
 				2F053D64227EC90D0091E4E3 /* Search.storyboard in Resources */,
@@ -388,6 +403,7 @@
 				68D2350D227ED3830031B50C /* EventViewController.swift in Sources */,
 				2FF1F670227EBF5800C1F0A0 /* CommonDefine.swift in Sources */,
 				2FF1F672227EBF8200C1F0A0 /* KCPUserDefaults.swift in Sources */,
+				2FB0AA26227EDE2100D365BB /* ProfileViewController.swift in Sources */,
 				2FF1F665227EBD7B00C1F0A0 /* JSONDecoder+extension.swift in Sources */,
 				2FF1F64E227EBD0500C1F0A0 /* AppDelegate.swift in Sources */,
 			);
