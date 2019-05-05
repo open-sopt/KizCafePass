@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Profile-->
+        <!--내 페이지-->
         <scene sceneID="e9v-Gf-Q0h">
             <objects>
                 <viewController storyboardIdentifier="ProfileViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="tJW-ow-jTB" customClass="ProfileViewController" customModule="KizCafePass" customModuleProvider="target" sceneMemberID="viewController">
@@ -196,7 +196,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="lUe-4a-GBi"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Profile" id="20o-xe-Wzw"/>
+                    <tabBarItem key="tabBarItem" title="내 페이지" image="tab4Active" id="20o-xe-Wzw"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <size key="freeformSize" width="414" height="1000"/>
                 </viewController>
@@ -273,5 +273,6 @@
         <image name="icSetting" width="24" height="24"/>
         <image name="icUselist" width="18" height="18"/>
         <image name="profileDefault" width="56" height="56"/>
+        <image name="tab4Active" width="28" height="28"/>
     </resources>
 </document>

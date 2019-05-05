@@ -20,6 +20,16 @@
 		2FF1F670227EBF5800C1F0A0 /* CommonDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF1F66F227EBF5800C1F0A0 /* CommonDefine.swift */; };
 		2FF1F672227EBF8200C1F0A0 /* KCPUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF1F671227EBF8200C1F0A0 /* KCPUserDefaults.swift */; };
 		9BA6AEBE227EECCD00760D40 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA6AEBD227EECCD00760D40 /* ProfileViewController.swift */; };
+		9BA6AEC5227F61A600760D40 /* MainTopPageContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA6AEC0227F61A600760D40 /* MainTopPageContentViewController.swift */; };
+		9BA6AEC6227F61A600760D40 /* MainTopPageContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BA6AEC1227F61A600760D40 /* MainTopPageContentViewController.xib */; };
+		9BA6AEC7227F61A600760D40 /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA6AEC3227F61A600760D40 /* HomeCollectionViewCell.swift */; };
+		9BA6AEC8227F61A600760D40 /* HomeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BA6AEC4227F61A600760D40 /* HomeCollectionViewCell.xib */; };
+		9BA6AF78227F62BF00760D40 /* EventTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BA6AF6F227F62BF00760D40 /* EventTableViewCell.xib */; };
+		9BA6AF79227F62BF00760D40 /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA6AF70227F62BF00760D40 /* EventTableViewCell.swift */; };
+		9BA6AF7A227F62BF00760D40 /* .EventTableViewCell.xib.swp in Resources */ = {isa = PBXBuildFile; fileRef = 9BA6AF71227F62BF00760D40 /* .EventTableViewCell.xib.swp */; };
+		9BA6AF7B227F62BF00760D40 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA6AF73227F62BF00760D40 /* Event.swift */; };
+		9BA6AF7C227F62BF00760D40 /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA6AF74227F62BF00760D40 /* EventViewController.swift */; };
+		9BA6AF7D227F62BF00760D40 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA6AF77227F62BF00760D40 /* SearchViewController.swift */; };
 		DFBDA2402D724FFC472E738B /* Pods_KizCafePass.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4D4CF75716498BA865618CE /* Pods_KizCafePass.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +51,16 @@
 		47513AD20A1ED3FCC3076888 /* Pods-KizCafePass.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KizCafePass.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KizCafePass/Pods-KizCafePass.debug.xcconfig"; sourceTree = "<group>"; };
 		9790A413C1F22C7E1C8BD357 /* Pods-KizCafePass.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KizCafePass.release.xcconfig"; path = "Pods/Target Support Files/Pods-KizCafePass/Pods-KizCafePass.release.xcconfig"; sourceTree = "<group>"; };
 		9BA6AEBD227EECCD00760D40 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		9BA6AEC0227F61A600760D40 /* MainTopPageContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTopPageContentViewController.swift; sourceTree = "<group>"; };
+		9BA6AEC1227F61A600760D40 /* MainTopPageContentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainTopPageContentViewController.xib; sourceTree = "<group>"; };
+		9BA6AEC3227F61A600760D40 /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		9BA6AEC4227F61A600760D40 /* HomeCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeCollectionViewCell.xib; sourceTree = "<group>"; };
+		9BA6AF6F227F62BF00760D40 /* EventTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EventTableViewCell.xib; sourceTree = "<group>"; };
+		9BA6AF70227F62BF00760D40 /* EventTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
+		9BA6AF71227F62BF00760D40 /* .EventTableViewCell.xib.swp */ = {isa = PBXFileReference; lastKnownFileType = file; path = .EventTableViewCell.xib.swp; sourceTree = "<group>"; };
+		9BA6AF73227F62BF00760D40 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		9BA6AF74227F62BF00760D40 /* EventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
+		9BA6AF77227F62BF00760D40 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		B4D4CF75716498BA865618CE /* Pods_KizCafePass.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KizCafePass.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -163,6 +183,8 @@
 		2FF1F668227EBDAE00C1F0A0 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				9BA6AF6D227F62BF00760D40 /* Event */,
+				9BA6AF75227F62BF00760D40 /* Search */,
 				9BA6AEB5227ED29500760D40 /* Profile */,
 				2FF1F669227EBDB600C1F0A0 /* Home */,
 			);
@@ -172,7 +194,8 @@
 		2FF1F669227EBDB600C1F0A0 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				2FF1F66B227EBDC500C1F0A0 /* View */,
+				9BA6AEBF227F61A600760D40 /* TopPage */,
+				9BA6AEC2227F61A600760D40 /* View */,
 				2FF1F66A227EBDBE00C1F0A0 /* ViewController */,
 			);
 			path = Home;
@@ -184,13 +207,6 @@
 				2FF1F64F227EBD0500C1F0A0 /* HomeViewController.swift */,
 			);
 			path = ViewController;
-			sourceTree = "<group>";
-		};
-		2FF1F66B227EBDC500C1F0A0 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		2FF1F66C227EBDFF00C1F0A0 /* model */ = {
@@ -230,6 +246,68 @@
 				9BA6AEBD227EECCD00760D40 /* ProfileViewController.swift */,
 			);
 			path = ProfileViewController;
+			sourceTree = "<group>";
+		};
+		9BA6AEBF227F61A600760D40 /* TopPage */ = {
+			isa = PBXGroup;
+			children = (
+				9BA6AEC0227F61A600760D40 /* MainTopPageContentViewController.swift */,
+				9BA6AEC1227F61A600760D40 /* MainTopPageContentViewController.xib */,
+			);
+			path = TopPage;
+			sourceTree = "<group>";
+		};
+		9BA6AEC2227F61A600760D40 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9BA6AEC3227F61A600760D40 /* HomeCollectionViewCell.swift */,
+				9BA6AEC4227F61A600760D40 /* HomeCollectionViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9BA6AF6D227F62BF00760D40 /* Event */ = {
+			isa = PBXGroup;
+			children = (
+				9BA6AF6E227F62BF00760D40 /* View */,
+				9BA6AF72227F62BF00760D40 /* ViewController */,
+			);
+			path = Event;
+			sourceTree = "<group>";
+		};
+		9BA6AF6E227F62BF00760D40 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9BA6AF6F227F62BF00760D40 /* EventTableViewCell.xib */,
+				9BA6AF70227F62BF00760D40 /* EventTableViewCell.swift */,
+				9BA6AF71227F62BF00760D40 /* .EventTableViewCell.xib.swp */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9BA6AF72227F62BF00760D40 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9BA6AF73227F62BF00760D40 /* Event.swift */,
+				9BA6AF74227F62BF00760D40 /* EventViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		9BA6AF75227F62BF00760D40 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				9BA6AF76227F62BF00760D40 /* ViewController */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		9BA6AF76227F62BF00760D40 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9BA6AF77227F62BF00760D40 /* SearchViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 		C07F7EBEC0B0735812F6D288 /* Frameworks */ = {
@@ -300,10 +378,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BA6AF7A227F62BF00760D40 /* .EventTableViewCell.xib.swp in Resources */,
+				9BA6AF78227F62BF00760D40 /* EventTableViewCell.xib in Resources */,
 				2FF1F658227EBD0600C1F0A0 /* LaunchScreen.storyboard in Resources */,
 				2FF1F655227EBD0600C1F0A0 /* Assets.xcassets in Resources */,
 				2FF1F653227EBD0500C1F0A0 /* Main.storyboard in Resources */,
 				2F053D62227EC9010091E4E3 /* Home.storyboard in Resources */,
+				9BA6AEC8227F61A600760D40 /* HomeCollectionViewCell.xib in Resources */,
+				9BA6AEC6227F61A600760D40 /* MainTopPageContentViewController.xib in Resources */,
 				2F053D64227EC90D0091E4E3 /* Search.storyboard in Resources */,
 				2F053D68227EC9210091E4E3 /* Profile.storyboard in Resources */,
 				2F053D66227EC9190091E4E3 /* Event.storyboard in Resources */,
@@ -345,12 +427,14 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-KizCafePass/Pods-KizCafePass-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -364,12 +448,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BA6AF79227F62BF00760D40 /* EventTableViewCell.swift in Sources */,
+				9BA6AF7C227F62BF00760D40 /* EventViewController.swift in Sources */,
+				9BA6AEC5227F61A600760D40 /* MainTopPageContentViewController.swift in Sources */,
 				9BA6AEBE227EECCD00760D40 /* ProfileViewController.swift in Sources */,
 				2FF1F650227EBD0500C1F0A0 /* HomeViewController.swift in Sources */,
+				9BA6AF7B227F62BF00760D40 /* Event.swift in Sources */,
+				9BA6AF7D227F62BF00760D40 /* SearchViewController.swift in Sources */,
 				2FF1F670227EBF5800C1F0A0 /* CommonDefine.swift in Sources */,
 				2FF1F672227EBF8200C1F0A0 /* KCPUserDefaults.swift in Sources */,
 				2FF1F665227EBD7B00C1F0A0 /* JSONDecoder+extension.swift in Sources */,
 				2FF1F64E227EBD0500C1F0A0 /* AppDelegate.swift in Sources */,
+				9BA6AEC7227F61A600760D40 /* HomeCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
