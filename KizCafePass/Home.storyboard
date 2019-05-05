@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Home-->
+        <!--홈-->
         <scene sceneID="rbI-jA-8uU">
             <objects>
                 <viewController id="j1k-BD-Abc" customClass="HomeViewController" customModule="KizCafePass" customModuleProvider="target" sceneMemberID="viewController">
@@ -21,17 +21,17 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NDh-jl-ola">
                                 <rect key="frame" x="0.0" y="44" width="414" height="873"/>
                                 <subviews>
-                                    <containerView opaque="NO" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Msw-Eb-YGY">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="186"/>
+                                    <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Msw-Eb-YGY">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="298"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="190" id="chV-5I-2F1"/>
+                                            <constraint firstAttribute="height" constant="298" id="chV-5I-2F1"/>
                                         </constraints>
                                         <connections>
                                             <segue destination="TIC-Cj-2Lm" kind="embed" id="q9h-ah-tbA"/>
                                         </connections>
                                     </containerView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="to4-kN-bvi">
-                                        <rect key="frame" x="0.0" y="190" width="414" height="770"/>
+                                        <rect key="frame" x="0.0" y="298" width="414" height="770"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FfN-IJ-UKl">
                                                 <rect key="frame" x="9" y="40" width="397" height="100"/>
@@ -141,7 +141,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="bI6-VK-ayk"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Home" id="ET7-Zc-a06"/>
+                    <tabBarItem key="tabBarItem" title="홈" image="tab1Active" selectedImage="tab1Active" id="ET7-Zc-a06"/>
                     <navigationItem key="navigationItem" id="0lq-FM-aE0"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <size key="freeformSize" width="414" height="1000"/>
@@ -160,7 +160,7 @@
             <objects>
                 <viewController storyboardIdentifier="HomeTopPageViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="TIC-Cj-2Lm" customClass="HomeTopPageViewController" customModule="KizCafePass" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ref-Xz-WhW">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="186"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="298"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="bjJ-LE-mdb"/>
@@ -171,4 +171,7 @@
             <point key="canvasLocation" x="2314" y="-380"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="tab1Active" width="27" height="27"/>
+    </resources>
 </document>
