@@ -15,6 +15,8 @@
 		2FB0AA43227F681100D365BB /* HomeTopPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB0AA41227F681100D365BB /* HomeTopPageViewController.swift */; };
 		2FB0AA45227F6F9700D365BB /* EventModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB0AA44227F6F9700D365BB /* EventModel.swift */; };
 		2FB0AA47227F6FA900D365BB /* EventService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB0AA46227F6FA900D365BB /* EventService.swift */; };
+		2FB0AA49227F9FAF00D365BB /* HomeInfoModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB0AA48227F9FAF00D365BB /* HomeInfoModels.swift */; };
+		2FB0AA4B227F9FBD00D365BB /* HomeInfoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB0AA4A227F9FBD00D365BB /* HomeInfoService.swift */; };
 		2FF1F64E227EBD0500C1F0A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF1F64D227EBD0500C1F0A0 /* AppDelegate.swift */; };
 		2FF1F650227EBD0500C1F0A0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF1F64F227EBD0500C1F0A0 /* HomeViewController.swift */; };
 		2FF1F653227EBD0500C1F0A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FF1F651227EBD0500C1F0A0 /* Main.storyboard */; };
@@ -44,6 +46,8 @@
 		2FB0AA41227F681100D365BB /* HomeTopPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTopPageViewController.swift; sourceTree = "<group>"; };
 		2FB0AA44227F6F9700D365BB /* EventModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventModel.swift; sourceTree = "<group>"; };
 		2FB0AA46227F6FA900D365BB /* EventService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventService.swift; sourceTree = "<group>"; };
+		2FB0AA48227F9FAF00D365BB /* HomeInfoModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInfoModels.swift; sourceTree = "<group>"; };
+		2FB0AA4A227F9FBD00D365BB /* HomeInfoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInfoService.swift; sourceTree = "<group>"; };
 		2FF1F64A227EBD0500C1F0A0 /* KizCafePass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KizCafePass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FF1F64D227EBD0500C1F0A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2FF1F64F227EBD0500C1F0A0 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -217,6 +221,7 @@
 			isa = PBXGroup;
 			children = (
 				2FB0AA44227F6F9700D365BB /* EventModel.swift */,
+				2FB0AA48227F9FAF00D365BB /* HomeInfoModels.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -225,6 +230,7 @@
 			isa = PBXGroup;
 			children = (
 				2FB0AA46227F6FA900D365BB /* EventService.swift */,
+				2FB0AA4A227F9FBD00D365BB /* HomeInfoService.swift */,
 			);
 			path = service;
 			sourceTree = "<group>";
@@ -459,6 +465,8 @@
 				9BA6AF7C227F62BF00760D40 /* EventViewController.swift in Sources */,
 				2FB0AA47227F6FA900D365BB /* EventService.swift in Sources */,
 				9BA6AEC5227F61A600760D40 /* MainTopPageContentViewController.swift in Sources */,
+				2FB0AA49227F9FAF00D365BB /* HomeInfoModels.swift in Sources */,
+				2FB0AA4B227F9FBD00D365BB /* HomeInfoService.swift in Sources */,
 				2FB0AA45227F6F9700D365BB /* EventModel.swift in Sources */,
 				9BA6AEBE227EECCD00760D40 /* ProfileViewController.swift in Sources */,
 				2FF1F650227EBD0500C1F0A0 /* HomeViewController.swift in Sources */,
@@ -617,6 +625,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 94R4GZ63X7;
 				INFOPLIST_FILE = KizCafePass/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -624,7 +633,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.sqoo.KizCafePass;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -636,6 +645,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 94R4GZ63X7;
 				INFOPLIST_FILE = KizCafePass/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -643,7 +653,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.sqoo.KizCafePass;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

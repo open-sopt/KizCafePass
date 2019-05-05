@@ -12,6 +12,9 @@ public enum CommonDefine {
         static let baseDomain = "http://15.164.31.189:3000"
         static let eventProgress = "/event/progress"
         static let eventCompleted = "/event/completed"
+        static let homeNew = "/home/new"
+        static let homeRecomand = "/home/recommand"
+        static let homeHot = "/home/hot"
     }
     
 }
