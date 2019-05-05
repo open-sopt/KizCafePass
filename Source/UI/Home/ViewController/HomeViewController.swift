@@ -41,7 +41,6 @@ class HomeViewController: UIViewController {
     }
 }
 
-
 extension HomeViewController: UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView,
                         layout collectionViewLayout: UICollectionViewLayout,
