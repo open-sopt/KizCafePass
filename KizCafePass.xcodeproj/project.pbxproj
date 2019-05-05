@@ -71,6 +71,7 @@
 				2FF1F65F227EBD1C00C1F0A0 /* Source */,
 				2FF1F64C227EBD0500C1F0A0 /* KizCafePass */,
 				2FF1F64B227EBD0500C1F0A0 /* Products */,
+				2FF1F654227EBD0600C1F0A0 /* Assets.xcassets */,
 				02CDC0CAD543E5B0B5C62245 /* Pods */,
 				C07F7EBEC0B0735812F6D288 /* Frameworks */,
 			);
@@ -89,7 +90,6 @@
 			children = (
 				2FF1F660227EBD2500C1F0A0 /* Supporting Files */,
 				2FF1F64D227EBD0500C1F0A0 /* AppDelegate.swift */,
-				2FF1F654227EBD0600C1F0A0 /* Assets.xcassets */,
 				2FF1F659227EBD0600C1F0A0 /* Info.plist */,
 			);
 			path = KizCafePass;
