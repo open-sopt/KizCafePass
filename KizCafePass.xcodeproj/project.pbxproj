@@ -22,6 +22,7 @@
 		68D2350A227ED31A0031B50C /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D23508227ED31A0031B50C /* EventTableViewCell.swift */; };
 		68D2350B227ED31A0031B50C /* EventTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68D23509227ED31A0031B50C /* EventTableViewCell.xib */; };
 		68D2350D227ED3830031B50C /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D2350C227ED3830031B50C /* EventViewController.swift */; };
+		9BA6AEBA227ED3E300760D40 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA6AEB9227ED3E300760D40 /* ProfileViewController.swift */; };
 		DFBDA2402D724FFC472E738B /* Pods_KizCafePass.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4D4CF75716498BA865618CE /* Pods_KizCafePass.framework */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +46,7 @@
 		68D23509227ED31A0031B50C /* EventTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EventTableViewCell.xib; sourceTree = "<group>"; };
 		68D2350C227ED3830031B50C /* EventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
 		9790A413C1F22C7E1C8BD357 /* Pods-KizCafePass.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KizCafePass.release.xcconfig"; path = "Pods/Target Support Files/Pods-KizCafePass/Pods-KizCafePass.release.xcconfig"; sourceTree = "<group>"; };
+		9BA6AEB9227ED3E300760D40 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		B4D4CF75716498BA865618CE /* Pods_KizCafePass.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KizCafePass.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -168,6 +170,7 @@
 			isa = PBXGroup;
 			children = (
 				68D23505227ED2E80031B50C /* Event */,
+				9BA6AEB5227ED29500760D40 /* Profile */,
 				2FF1F669227EBDB600C1F0A0 /* Home */,
 			);
 			path = UI;
@@ -244,6 +247,20 @@
 				68D23509227ED31A0031B50C /* EventTableViewCell.xib */,
 			);
 			path = View;
+		9BA6AEB5227ED29500760D40 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				9BA6AEB6227ED34B00760D40 /* ProfileViewController */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		9BA6AEB6227ED34B00760D40 /* ProfileViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9BA6AEB9227ED3E300760D40 /* ProfileViewController.swift */,
+			);
+			path = ProfileViewController;
 			sourceTree = "<group>";
 		};
 		C07F7EBEC0B0735812F6D288 /* Frameworks */ = {
@@ -380,6 +397,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				68D2350A227ED31A0031B50C /* EventTableViewCell.swift in Sources */,
+				9BA6AEBA227ED3E300760D40 /* ProfileViewController.swift in Sources */,
 				2FF1F650227EBD0500C1F0A0 /* HomeViewController.swift in Sources */,
 				68D2350D227ED3830031B50C /* EventViewController.swift in Sources */,
 				2FF1F670227EBF5800C1F0A0 /* CommonDefine.swift in Sources */,
